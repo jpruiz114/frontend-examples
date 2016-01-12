@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01a88b25-a1fc-4b86-aece-78bbb71446cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript-patterns/currying/README.md" afterPath="$PROJECT_DIR$/javascript-patterns/currying/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript-patterns/memoization/README.md" afterPath="$PROJECT_DIR$/javascript-patterns/memoization/README.md" />
-    </list>
+    <list default="true" id="01a88b25-a1fc-4b86-aece-78bbb71446cf" name="Default" comment="" />
     <ignored path="frontend-examples.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
