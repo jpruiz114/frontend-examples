@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a88b25-a1fc-4b86-aece-78bbb71446cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript-patterns/constructor/Constructor3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript-patterns/constructor/Constructor4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript-patterns/constructor/Constructor2.js" afterPath="$PROJECT_DIR$/javascript-patterns/constructor/Constructor2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/JSON_Iterator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/MOCK_DATA.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript-patterns/singleton/Singleton1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript-patterns/constructor/Gruntfile.js" afterPath="$PROJECT_DIR$/javascript-patterns/constructor/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/InputParams.js" afterPath="$PROJECT_DIR$/javascript/InputParams.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontend-examples.iws" />
@@ -56,17 +58,20 @@
         <option value="$PROJECT_DIR$/JavaScriptArguments.js" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/Constructor1.js" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/.gitignore" />
-        <option value="$PROJECT_DIR$/javascript-patterns/constructor/Gruntfile.js" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/package.json" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/README.md" />
         <option value="$PROJECT_DIR$/javascript-patterns/currying/README.md" />
         <option value="$PROJECT_DIR$/javascript-patterns/memoization/README.md" />
         <option value="$PROJECT_DIR$/InputParams.js" />
-        <option value="$PROJECT_DIR$/javascript/InputParams.js" />
         <option value="$PROJECT_DIR$/javascript/InputParams.sh" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/Constructor2.js" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/Constructor3.js" />
         <option value="$PROJECT_DIR$/javascript-patterns/constructor/Constructor4.js" />
+        <option value="$PROJECT_DIR$/javascript-patterns/constructor/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/javascript-patterns/singleton/Singleton1.js" />
+        <option value="$PROJECT_DIR$/javascript/MOCK_DATA.json" />
+        <option value="$PROJECT_DIR$/javascript/JSON_Iterator.js" />
+        <option value="$PROJECT_DIR$/javascript/InputParams.js" />
       </list>
     </option>
   </component>
@@ -150,11 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constructor" />
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -165,18 +166,18 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Frontend/Implementation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../VP/Pet360/contentful-scripts" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\Personal\GitHub\frontend-examples\javascript" />
       <recent name="C:\Development\Personal\GitHub\frontend-examples\javascript-patterns\constructor" />
       <recent name="C:\Development\Personal\GitHub\frontend-examples\javascript-patterns\currying" />
       <recent name="C:\Development\Personal\GitHub\frontend-examples" />
       <recent name="C:\Development\Personal\GitHub\frontend-examples\javascript-patterns\memoization" />
-      <recent name="C:\Development\Personal\GitHub\frontend-examples\javascript-patterns\module" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\Personal\GitHub\frontend-examples\javascript" />
@@ -327,6 +328,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4764574">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -394,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5767013">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript-patterns/currying/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.147059">
@@ -455,10 +450,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/InputParams.js">
+    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08408072">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5605381">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Constructor2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Constructor1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Constructor3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -470,26 +490,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Constructor3.js">
+    <entry file="file://$PROJECT_DIR$/javascript-patterns/singleton/Singleton1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58856505">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.3733184">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Constructor2.js">
+    <entry file="file://$PROJECT_DIR$/javascript/JSON_Iterator-01.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11210762">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript-patterns/constructor/Constructor1.js">
+    <entry file="file://$PROJECT_DIR$/javascript/JSON_Iterator-02.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33632287">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-19.039238">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/JSON_Iterator-03.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/MOCK_DATA.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/InputParams.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14013453">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/JSON_Iterator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7376682">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
