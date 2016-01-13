@@ -1,3 +1,7 @@
+var newObject = {};
+
+/* ***** */
+
 // ECMAScript 3 compatible approaches
 
 // 1. Dot syntax
@@ -78,3 +82,21 @@ Object.defineProperties(
 
 // Getting properties for 3. and 4. can be done using any of the
 // options in 1. and 2.
+
+/* ***** */
+
+// As we will see a little later in the book, these methods can even be used for inheritance, as follows:
+
+// Usage:
+
+// Create a race car driver that inherits from the person object
+var driver = Object.create( person );
+
+// Set some properties for the driver
+defineProp(driver, "topSpeed", "100mph");
+
+// Get an inherited property (1981)
+console.log(driver.dateOfBirth);
+
+// Get the property we set (100mph)
+console.log(driver.topSpeed);
