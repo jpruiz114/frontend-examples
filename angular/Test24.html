@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    </head>
+
+    <body ng-app="customApp">
+        <div class="test-directive"></div>
+
+        <script>
+            var app = angular.module("customApp", []);
+            app.directive(
+                "testDirective",
+                function() {
+                    return {
+                        restrict : "C",
+                        template: "<h1>Made by a directive!</h1>"
+                    };
+                }
+            );
+        </script>
+    </body>
+</html>

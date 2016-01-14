@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    </head>
+
+    <body>
+        <div ng-app="myApp" test-directive></div>
+
+        <script>
+            var app = angular.module("myApp", []);
+
+            app.directive(
+                "testDirective",
+                function() {
+                    return {
+                        template: "I was made in a directive constructor!"
+                    };
+                }
+            );
+        </script>
+    </body>
+</html>
