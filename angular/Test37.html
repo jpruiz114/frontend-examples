@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+        <script>
+            var app = angular.module("customApp", []);
+
+            app.controller(
+                "customController",
+                function($scope) {
+                    $scope.names = ["Emil", "Tobias", "Linus"];
+                }
+            );
+        </script>
+    </head>
+
+    <body>
+        <div ng-app="customApp" ng-controller="customController">
+            <ul>
+                <li ng-repeat="x in names">{{x}}</li>
+            </ul>
+        </div>
+    </body>
+</html>

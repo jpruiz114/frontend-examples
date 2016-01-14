@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    </head>
+
+    <body>
+        <div ng-app="customApp" ng-controller="customController">
+            Name: <input ng-model="name">
+            <h1>You entered: {{name}}</h1>
+        </div>
+
+        <script>
+            var app = angular.module("customApp", []);
+            app.controller(
+                "customController",
+                function($scope) {
+                    $scope.name = "John Doe Dick";
+                }
+            );
+        </script>
+
+        <p>Change the name inside the input field, and you will see the name in the header changes accordingly.</p>
+    </body>
+</html>

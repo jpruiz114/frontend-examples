@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+        <script src="personController.js"></script>
+    </head>
+
+    <body>
+        <div ng-app="customApp" ng-controller="personCtrl">
+            <p>The name is {{lastName | uppercase}}, {{firstName}}</p>
+        </div>
+    </body>
+</html>
