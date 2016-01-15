@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+        <script>
+            var app = angular.module("namesApp", []);
+
+            app.filter("customFormat",
+                function() {
+                    return function(x) {
+                        var i, c, txt = "";
+
+                        x = x.split("");
+
+                        for (i = 0; i < x.length; i++) {
+                            c = x[i];
+
+                            if (i % 2 == 0) {
+                                c = c.toUpperCase();
+                            }
+
+                            txt += c;
+                        }
+
+                        return txt;
+                    };
+                }
+            );
+
+            app.controller(
+                "namesController",
+                function($scope) {
+                    $scope.names = ["Jani", "Carl", "Margareth", "Hege", "Joe", "Gustav", "Birgit", "Mary", "Kai"];
+                }
+            );
+        </script>
+    </head>
+
+    <body>
+        <ul ng-app="namesApp" ng-controller="namesController">
+            <li ng-repeat="x in names">{{x | customFormat}}</li>
+        </ul>
+
+        <p>Make your own filters.</p>
+
+        <p>This filter, called "customFormat", will uppercase every even character.</p>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+        <script>
+            angular.module('filterApp', []).controller(
+                'filterController',
+                function($scope) {
+                    $scope.names = ['Jani', 'Carl', 'Margareth', 'Hege', 'Joe', 'Gustav', 'Birgit', 'Mary', 'Kai'];
+                }
+            );
+        </script>
+    </head>
+
+    <body>
+        <div ng-app="filterApp" ng-controller="filterController">
+            <ul>
+                <li ng-repeat="x in names | filter : 'i'">{{x}}</li>
+            </ul>
+        </div>
+    </body>
+</html>
