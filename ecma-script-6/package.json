@@ -1,0 +1,10 @@
+{
+  "name": "ecma-script-6",
+  "description": "ECMA Script 6",
+  "author": "Jean Paul Ruiz <jpruiz114@gmail.com>",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jsvalidate": "^0.2.2",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
