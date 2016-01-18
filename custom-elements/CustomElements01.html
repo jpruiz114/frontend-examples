@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+
+        <title></title>
+
+        <script type="text/javascript">
+            var XFoo = document.registerElement("x-foo");
+
+            var xfoo = new XFoo();
+
+            document.addEventListener(
+                "DOMContentLoaded",
+                function(event) {
+                    document.body.appendChild(xfoo);
+                }
+            );
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+
+        <title></title>
+
+        <script type="text/javascript">
+            var MegaButton = document.registerElement(
+                "mega-button", {prototype: Object.create(HTMLButtonElement.prototype), extends: "button"}
+            );
+
+            console.dir(MegaButton);
+
+            var megaButton = new MegaButton();
+
+            console.dir(megaButton);
+
+            document.addEventListener(
+                "DOMContentLoaded",
+                function(event) {
+                    console.dir(event);
+
+                    document.body.appendChild(megaButton);
+                }
+            );
+        </script>
+    </head>
+
+    <body>
+        
+    </body>
+</html>
